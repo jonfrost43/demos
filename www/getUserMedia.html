@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>try: getUserMedia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div id="try">
+            <h1>getUserMedia</h1>
+            <video autoplay></video>
+        </div>
+        <style media="screen">
+            video {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            video.front {
+                transform: scaleX(-1);
+            }
+            button {
+                font-size: 24px;
+                padding: 20px 0;
+                position: fixed;
+                bottom: 0;
+                width: 49%;
+                text-align: center;
+                border: none;
+                display: block;
+            }
+            button.front {
+                left: 0;
+            }
+            button.back {
+                left: 50%;
+            }
+        </style>
+        <script src="/script/getUserMedia.js" charset="utf-8"></script>
+    </body>
+</html>
