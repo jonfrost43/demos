@@ -1,8 +1,12 @@
 var express = require('express'),
+    serveIndex = require('serve-index'),
     app = express(),
     port = process.env.port || 3000;
 
-app.get('/', function(req, res){
+app.use(express.static('www'));
+app.use(serveIndex('www'));
+
+app.get('/woah', function(req, res){
     res.type('text/plain');
     res.send('woah');
 });

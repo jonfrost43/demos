@@ -1,14 +1,15 @@
 {
-    "name": "try",
-    "version": "0.0.0",
-    "description": "A place to try out browser APIs",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Jon Frost",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.13.1"
-    }
+  "name": "demos",
+  "version": "0.0.0",
+  "description": "A place to try out browser APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Frost",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.1",
+    "serve-index": "^1.7.1"
+  }
 }
