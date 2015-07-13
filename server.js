@@ -1,7 +1,7 @@
 var express = require('express'),
     serveIndex = require('serve-index'),
     app = express(),
-    port = process.env.port || 3000;
+    port = process.env.PORT || 3000;
 
 app.use(express.static('www'));
 app.use(serveIndex('www'));
