@@ -1,6 +1,7 @@
 {
     "name": "demos",
     "version": "0.0.0",
+    "repository": "https://github.com/jonfrost43/demos.git",
     "description": "A place to try out browser APIs",
     "main": "server.js",
     "scripts": {

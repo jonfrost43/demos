@@ -29,7 +29,7 @@ else {
 
             if(source.kind === 'video'){
                 var button = document.createElement('button');
-                button.innerHTML = button.className = videoSourcesMap[source.facing];
+                button.innerHTML = button.className = videoSourcesMap[source.facing] || 'front';
                 button.setAttribute('data-source-id', source.id);
                 fragment.appendChild(button);
             }
