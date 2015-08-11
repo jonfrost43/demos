@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>photobooth</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/style/main.css" media="screen" charset="utf-8">
+    </head>
+    <body>
+        <div id="photobooth">
+            <h1>photobooth</h1>
+            <video autoplay></video>
+			<div id="controls">
+				<button type="button" id="capture" class="hidden">Take photo</button>
+			</div>
+			<canvas id="photoRenderer" width="150" height="150" class="hidden"></canvas>
+			<div id="photos"></div>
+        </div>
+        <script src="/script/photobooth.js" charset="utf-8"></script>
+    </body>
+</html>
