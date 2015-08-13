@@ -1,0 +1,82 @@
+.hidden {
+	display: none;
+}
+
+button {
+	background: none;
+	border: 1px solid #666;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	margin: 50px auto 0;
+	display: block;
+}
+
+
+#demo video {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+video.front, .flip {
+	transform: scaleX(-1);
+}
+#demo button {
+	font-size: 24px;
+	padding: 20px 0;
+	position: fixed;
+	bottom: 0;
+	width: 49%;
+	text-align: center;
+	border: none;
+	display: block;
+	cursor: pointer;
+}
+#demo button.front {
+	left: 0;
+}
+#demo button.back {
+	left: 50%;
+}
+
+
+#photobooth video {
+	width: 150px;
+	height: 150px;
+	background-color: #eee;
+}
+
+#photoRenderer {
+	display: none;
+}
+
+#photos img {
+	float: left;
+}
+
+
+
+#cardboard video {
+	position: absolute;
+	top: 0;
+	-webkit-filter: contrast(1.5) brightness(1.2) grayscale(1);
+}
+
+#cardboard .red {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: red;
+	opacity: 0.5;
+}
+
+#cardboard video.left {
+	left: 0;
+}
+
+#cardboard video.right {
+	right: 0;
+}

@@ -8,7 +8,7 @@ function hasGetUserMedia(){
 }
 
 var body = document.querySelector('body'),
-    video = document.querySelector('video')
+    video = document.querySelector('video'),
     videoSourcesMap = {
         user: 'front',
         environment: 'back'
